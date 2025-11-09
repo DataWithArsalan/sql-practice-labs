@@ -2,7 +2,7 @@
   File: 03_dml_basics.sql
   Author: Muhammad Arsalan
   DB: ShopDB (SQL Server)
-  Purpose: DDL practice - INSERT / UPDATE / DELETE.
+  Purpose: DML practice - INSERT / UPDATE / DELETE.
 ----------------------------------------------------------------------------- */
 -- =======================================================
 --   INSERT
@@ -104,4 +104,5 @@ DELETE Persons;
 
 -- But here we use TRUNCATE() to delete all data from table and structure will be remain.
 -- Faster method to delete all rows, especially useful for large tables
+
 TRUNCATE TABLE Persons;
