@@ -106,3 +106,5 @@ DELETE Persons;
 -- Faster method to delete all rows, especially useful for large tables
 
 TRUNCATE TABLE Persons;
+												-- THE END --
+
