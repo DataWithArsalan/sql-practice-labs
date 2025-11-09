@@ -218,4 +218,5 @@ SELECT
     score
 FROM dbo.customers;
 
---  THE END
+                                                      -- THE END --
+
