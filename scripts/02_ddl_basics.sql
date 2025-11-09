@@ -27,7 +27,7 @@ ALTER TABLE Persons
 ADD Age VARCHAR(20);
 -- The new columns are appended at the end of table by default
 
--- Changes the Age column’s data type from VARCHAR to INT.
+-- Changes the Age columnâ€™s data type from VARCHAR to INT.
 ALTER TABLE Persons
 ALTER COLUMN Age INT;
 
@@ -53,4 +53,6 @@ DROP TABLE IF EXISTS Persons;
 -- =======================================================
 -- Remove all records table persons from the database
 TRUNCATE TABLE Persons;
+                                                -- THE END --
+
 
