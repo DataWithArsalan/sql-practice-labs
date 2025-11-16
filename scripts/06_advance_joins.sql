@@ -1,5 +1,5 @@
 /* -----------------------------------------------------------------------------------------------------------------------------------------
-  File: 05_advance_joins.sql
+  File: 06_advance_joins.sql
   Author: Muhammad Arsalan
   DB: ShopDB (SQL Server)
   Purpose: SQL Joins - LEFT ANTI JOIN, RIGHT ANTI JOIN, FULL ANTI JOIN, CROSS JOIN, MULTI JOINS
@@ -140,4 +140,5 @@ LEFT JOIN products AS P
 LEFT JOIN employees AS E
 	ON O.salespersonid = E.employeeid;
 -------------------------------------- THE END ------------------------------------
+
 
