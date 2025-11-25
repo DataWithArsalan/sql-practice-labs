@@ -114,10 +114,8 @@ SELECT
 FROM orders
 ORDER BY customerid;
 
--------------------------
-/*
-	
-*/
+
+-- Count how many orders each customer made with sales greater than 30?	
 SELECT 
 	customerid,
 	-- Conditional Aggregations
@@ -128,4 +126,6 @@ SELECT
 	-- Normal Aggregations using CASE STATEMENT
 	COUNT(*) AS TotalOrders
 FROM orders
-GROUP BY customerid
+GROUP BY customerid;
+----------------------------------------------- END ------------------------------------------------------------------
+
